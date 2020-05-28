@@ -9,8 +9,8 @@
     -ms-flex-pack: center;
     justify-content: center; }
   .cardSmall {
-    margin-right: 10px;
-    margin-left: 10px; }
+    margin-right: 15px;
+    margin-left: 15px; }
   .cardBig {
     margin-right: 0; } }
 
@@ -25,7 +25,112 @@
     -ms-flex-pack: center;
     justify-content: center; }
   .cardSmall {
+    margin-right: 15px;
+    margin-left: 15px; }
+  .cardBig {
+    margin-right: 0; } }
+
+@media screen and (min-width: 740px) and (max-width: 779px) {
+  .battle__cards {
+    margin: 10px; }
+  .battle__title {
+    font-size: 30px;
+    padding-bottom: 10px; }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .cardSmall {
+    margin-right: 5px;
+    margin-left: 5px; }
+  .cardBig {
+    margin-right: 0;
+    max-width: 710px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .cardBig__info {
+      padding-left: 32px; } }
+
+@media screen and (min-width: 480px) and (max-width: 739px) {
+  .battle__cards {
+    margin: 10px; }
+  .battle__title {
+    font-size: 30px;
+    padding-bottom: 10px; }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .cardSmall {
     margin-right: 10px;
     margin-left: 10px; }
   .cardBig {
-    margin-right: 0; } }
+    margin-right: 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .cardBig__img {
+      height: 250px; }
+      .cardBig__img img {
+        max-width: 350px;
+        border-radius: 8px 8px 0px 0px; }
+    .cardBig__info {
+      max-width: 350px;
+      border-radius: 0px 0px 8px 8px;
+      padding-left: 32px; } }
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .battle__cards {
+    margin: 10px; }
+  .battle__title {
+    font-size: 30px;
+    padding-bottom: 10px; }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .cardSmall {
+    margin-right: 10px;
+    margin-left: 10px; }
+    .cardSmall img {
+      max-width: 300px; }
+    .cardSmall__info {
+      max-width: 300px; }
+  .cardBig {
+    margin-right: 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .cardBig__img {
+      height: 250px; }
+      .cardBig__img img {
+        max-width: 300px;
+        border-radius: 8px 8px 0px 0px; }
+    .cardBig__info {
+      max-width: 300px;
+      border-radius: 0px 0px 8px 8px;
+      padding-left: 32px; }
+  .info__text {
+    max-width: 250px; } }
